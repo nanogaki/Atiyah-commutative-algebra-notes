@@ -167,17 +167,26 @@
 \end{exercise}
 
 \begin{exercise}\label{ex3.27}
-	
+	\begin{enumerate}[label=\textup{(\roman*)},ref=\theexercise(\roman*)]\crefalias{enumi}{exercise}
+		\item Use \Cref{ex3.25} for finite case. Expand to infinite case by \Cref{ex2.23}, then use \Cref{ex3.26}.
+		\item Use \Cref{ex1.22}.
+		\item $V(\mathfrak{a})=f^*\left(\operatorname{Spec}(A/\mathfrak{a})\right)$, but $f^*\left(\operatorname{Spec}\left(S^{-1}A\right)\right)$ is also closed in constructible topology.
+		\item If $\left(f^*\left(\operatorname{Spec}\left(B_\alpha\right)\right)\right)^c$ is an open cover, $\bigcap_\alpha f^*\left(\operatorname{Spec}\left(B_\alpha\right)\right)=\varnothing$, so $B=0$. We can still think $B$ is constructed by \Cref{ex2.23}, then apply \Cref{ex2.21} we have $B_J=0$ for a finite set $J$.
+	\end{enumerate}
 \end{exercise}
 
 \begin{exercise}\label{ex3.28}
-	
+	\begin{enumerate}
+		\item[(iii)] We claim that any continuous bijection from a compact space to a Hausdorff space is a homeomorphism, so is $X_C\rightarrow X_{C^\prime}$. Let $f:X\rightarrow Y$ be such map and let $C\subseteq X$ closed. Then $C$ is compact, so is $f(C)$. Since $Y$ Hausdorff, $f(C)$ is closed and therefore $f$ maps closed sets to closed sets.
+	\end{enumerate}
 \end{exercise}
 
 \begin{exercise}\label{ex3.29}
-	
+	Consider $g:B\rightarrow C$. Use \hyperref[ex1.21]{\Cref*{ex1.21}(vi)}.
 \end{exercise}
 
 \begin{exercise}\label{ex3.30}
-	
+	\begin{enumerate}
+		\item[$\Leftarrow$] $\operatorname{id}:X_C\rightarrow X$ is a map from a compact space to a Hausdorff space. The topology on $X_C$ is finer than $X$ so the map is continuous. Then use the claim in \hyperref[ex3.28]{\Cref*{ex3.28}(iii)}.
+	\end{enumerate}
 \end{exercise}
