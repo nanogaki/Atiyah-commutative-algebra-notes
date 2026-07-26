@@ -64,6 +64,14 @@
 \crefname{exercise}{exercise}{exercises}
 
 \begin{document}
+	{
+		\hypersetup{
+			colorlinks=true,
+			linkcolor=black,
+		}
+		\tableofcontents
+	}
+	\clearpage
 	\input{Chapter/Chapter1}
 	\newpage
 	\input{Chapter/Chapter2}
@@ -88,6 +96,7 @@
 	\newpage
 	% Exercises section
 	\chapter*{EXERCISES}
+	\addcontentsline{toc}{chapter}{EXERCISES}
 	\setlist[enumerate]{align=left,leftmargin=0pt,itemindent=!,itemsep=0pt,topsep=0pt,parsep=0pt}
 	\setlist[itemize]{itemsep=0pt,topsep=0pt,parsep=0pt}
 	\markboth{EXERCISES}{EXERCISES}

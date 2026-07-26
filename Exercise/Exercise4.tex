@@ -80,7 +80,9 @@
 \end{exercise}
 
 \begin{exercise}\label{ex4.17}
+	Take $\mathfrak{p}_1$ to be a minimal prime ideal containing $\mathfrak{a}_1=\mathfrak{a}$. By \Cref{ex4.11}, $S_{\mathfrak{p}_1}\left(\mathfrak{a}_1\right)$ is $\mathfrak{p}_1$-primary, and $S_{\mathfrak{p}_1}\left(\mathfrak{a}_1\right)=\left(\mathfrak{a}_1:x_1\right)$ for some $x_1\notin\mathfrak{p}_1$. If $u\in\mathfrak{q}_1\cap\left(\mathfrak{a}_1+\left(x_1\right)\right)$, $u=a+tx_1$ and $ux_1\in\mathfrak{a}_1$, so $ax_1+tx_1^2\in\mathfrak{a}_1$ and so $tx_1^2\in\mathfrak{a}_1$. Since $x_1\notin\mathfrak{p}_1$, $t\in\left(\mathfrak{a}_1:x_1\right)$, which implies $f\in\mathfrak{a}_1$, and therefore $\mathfrak{q}_1\cap\left(\mathfrak{a}_1+\left(x_1\right)\right)\subseteq\mathfrak{a}_1$.
 	
+	Let $\mathfrak{a}_n$ be a maximal element of the set $\left\{\mathfrak{b}\subseteq A:\mathfrak{a}_{n-1}+\left(x_{n-1}\right)\subseteq\mathfrak{b}\text{ and }\mathfrak{q}_{n-1}\cap\mathfrak{b}=\mathfrak{a}_{n-1}\right\}$. If for some $n$, $\mathfrak{a}_n=(1)$, the step stops, otherwise by transfinite induction.
 \end{exercise}
 
 \begin{exercise}\label{ex4.18}
@@ -97,17 +99,25 @@
 \end{exercise}
 
 \begin{exercise}\label{ex4.20}
-	
+	\begin{enumerate}
+		\item[(vi)] If $P$ is a prime submodule, $\operatorname{rad}_M\left((P:M)^nM\right)=(P:M)$ for all $n>0$.
+	\end{enumerate}
 \end{exercise}
 
 \begin{exercise}\label{ex4.21}
+	We only show that the definition is equivalent to the \hyperref[primarymodule]{element-wise definition}.
+	\begin{enumerate}
+		\item[$\Rightarrow$:] Let $xm\in Q$ but $m\notin Q$. The map $\phi_x:M/Q\rightarrow M/Q$ defined by $\overline{m}\mapsto x\overline{m}$ is not injective. Therefore, $\left(\phi_x\right)^n=0$ for some $n$, and thus $x^n(M/Q)=0$.
+		\item[$\Leftarrow$:] If $x$ is a zero-divisor of $M/Q$, $xm\in Q$ for some $m\notin Q$. Therefore $x^nM\subseteq Q$ for some $n$.
+	\end{enumerate}
 	
+	Note that when asked for generalization of $(Q:A)=B$, one of the $A$ and $B$ has to be an ideal.
 \end{exercise}
 
 \begin{exercise}\label{ex4.22}
-	
+	We only need to replace $\mathfrak{a}$ to $N$ and pick $x\in M$ in the original proof.
 \end{exercise}
 
 \begin{exercise}\label{ex4.23}
-	
+	Replace all \textit{primary ideal} to \textit{primary submodule}, but remain \textit{prime ideal} unchanged.
 \end{exercise}

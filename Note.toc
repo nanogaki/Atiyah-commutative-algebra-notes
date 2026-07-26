@@ -1,0 +1,24 @@
+\contentsline {chapter}{\numberline {1}Rings and Ideals}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Modules}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Rings and Modules of Fractions}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Primary Decomposition}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Integral Dependence and Valuations}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Chain Conditions}{13}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Noetherian Rings}{14}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Artinian Rings}{15}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Discrete Valuation Rings and Dedekind Domain}{16}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Completion}{18}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Dimension Theory}{21}{chapter.11}%
+\contentsline {chapter}{EXERCISES}{23}{chapter*.2}%
+\contentsline {section}{\numberline {1}Rings and Ideals}{23}{section.11.1}%
+\contentsline {section}{\numberline {2}Modules}{24}{section.11.2}%
+\contentsline {section}{\numberline {3}Rings and Modules of Fractions}{26}{section.11.3}%
+\contentsline {section}{\numberline {4}Primary Decomposition}{28}{section.11.4}%
+\contentsline {section}{\numberline {5}Integral Dependence and Valuations}{29}{section.11.5}%
+\contentsline {section}{\numberline {6}Chain Conditions}{31}{section.11.6}%
+\contentsline {section}{\numberline {7}Noetherian Rings}{32}{section.11.7}%
+\contentsline {section}{\numberline {8}Artinian Rings}{34}{section.11.8}%
+\contentsline {section}{\numberline {9}Discrete Valuation Rings and Dedekind Domain}{34}{section.11.9}%
+\contentsline {section}{\numberline {10}Completion}{35}{section.11.10}%
+\contentsline {section}{\numberline {11}Dimension Theory}{36}{section.11.11}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

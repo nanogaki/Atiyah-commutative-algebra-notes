@@ -166,15 +166,21 @@
 \end{exercise}
 
 \begin{exercise}\label{ex5.32}
+	$v(x)+v(y)=v(xy)$ implies $v(A-\mathfrak{p})$ is closed under addition. Let $\Delta=v(A-\mathfrak{p})\cup\left(-v(A-\mathfrak{p})\right)$. If $0\leqslant v(x)\leqslant v(y)$ with $y\in A-\mathfrak{p}$, then $x^{-1}y\in A$ and $x\left(x^{-1}y\right)\in A-\mathfrak{p}$. Since $A-\mathfrak{p}$ is saturated as a multiplicatively closed set, $x\in A-\mathfrak{p}$.
 	
+	Let $S=\left\{x\in A:v(x)\in\Delta,v(x)\geqslant0\right\}$. If $x,y\notin S$, $v(x+y)\geqslant\min\left(v(x),v(y)\right)$ means $x+y\notin S$; if $x\notin S$ and $y\in A$, $v(xy)\geqslant v(x)$ means $xy\notin S$. Hence, $A-S$ is an ideal, and it is automatically prime due to $S$ is multiplicatively closed.
+	
+	Define $v_{A_\mathfrak{p}}:K^*\rightarrow\Gamma/\Delta$ to be $x\mapsto x+\Delta$, then $A_\mathfrak{p}=\left\{x\in K:v_{A_\mathfrak{p}}(x)\geqslant0\right\}$.
+	
+	The fraction field of $A/\mathfrak{p}$ is not $K$ but $\left(A/\mathfrak{p}\right)_{\overline{\mathfrak{p}}}$. Let $x=\overline{a}/\overline{b}\in\left(A/\mathfrak{p}\right)_{\overline{\mathfrak{p}}}$ and define $v_{A/\mathfrak{p}}(x)=v(a)-v(b)$, so $v_{A/\mathfrak{p}}(x)\in\Delta$. We have $v_{A/\mathfrak{p}}(A/\mathfrak{p})=\Delta_+$.
 \end{exercise}
 
 \begin{exercise}\label{ex5.33}
-	
+	Let $v(a/b)=v_0(a)-v_0(b)$. Use $v(xy)=v(x)+v(y)$ to proof it is well-defined and unique.
 \end{exercise}
 
 \begin{exercise}\label{ex5.34}
-	
+	Since $gf(A)=A$, $g(B)\supseteq A$. Let $\mathfrak{n}$ be a maximal ideal of $g(B)$, by \Cref{ex5.10}, $\mathfrak{m}=\mathfrak{n}\cap A$ is the maximal ideal of $A$. Also since $\left(g(B)\right)_\mathfrak{n}$ dominates $A$, by \Cref{ex5.27}, $\left(g(B)\right)_\mathfrak{n}=A$ and therefore $g(B)\subseteq A$.
 \end{exercise}
 
 \begin{exercise}\label{ex5.35}
