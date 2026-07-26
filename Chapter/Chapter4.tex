@@ -6,12 +6,19 @@
 	An ideal $\mathfrak{q}\in A$ is \textcolor{orange}{primary} if $\mathfrak{q}\neq A$, and if $x\notin\mathfrak{q}\Rightarrow y^n\in\mathfrak{q}$ for some $n>0$. This also means $x\notin\sqrt{\mathfrak{q}}\Rightarrow y\in\mathfrak{q}$.
 \end{definition}
 
+\begin{proposition}{4.2}
+	If $\sqrt{\mathfrak{a}}$ is maximal, then $\mathfrak{a}$ is primary.
+	\begin{proof}
+		Let $xy\in\mathfrak{a}$ but $x\notin\sqrt{\mathfrak{a}}$. We have $\sqrt{\mathfrak{a}}+(x)=A$, so $m+ax=1$ with $m^n\in\mathfrak{a}$. Therefore $m^n+bx=1$ and multiply $y$ to both sides.
+	\end{proof}
+\end{proposition}
+
 \begin{proposition}{4.4}
 	Let $\mathfrak{q}$ be a $\mathfrak{p}$-primary ideal, $x\in A$ an element. Then
-	\begin{enumerate}[label=\textup{(\roman*)}]
+	\begin{enumerate}[label=\textup{(\roman*)},ref=\thepropositiontemp(\roman*)]\crefalias{enumi}{proposition}
 		\item if $x\in\mathfrak{q}$ then $(\mathfrak{q}:x)=(1)$;
 		\item if $x\notin\mathfrak{q}$ then $(\mathfrak{q}:x)$ is $\mathfrak{p}$-primary;
-		\item if $x\notin\mathfrak{p}$ then $(\mathfrak{q}:x)=\mathfrak{q}$;
+		\item\label{4.4.3} if $x\notin\mathfrak{p}$ then $(\mathfrak{q}:x)=\mathfrak{q}$;
 	\end{enumerate}
 \end{proposition}
 
@@ -59,3 +66,36 @@ A set $\Sigma$ of prime ideals belonging to $\mathfrak{a}$ is said to be \textco
 \begin{definition}
 	Let $A$ be a ring and $\mathfrak{p}$ a prime ideal of $A$. The $n$th \textcolor{orange}{symbolic power} of $\mathfrak{p}$ is defined to be the ideal $\mathfrak{p}^{(n)}=S_\mathfrak{p}\left(\mathfrak{p}^n\right)$.
 \end{definition}
+
+\begin{definition}
+	Let $M$ be an $A$-module. A submodule $P\subseteq M$ is called a \textcolor{orange}{prime submodule} if for any $a\in A$ and $x\in M$, $ax\in P$ implies $x\in P$ or $aM\subseteq P$.
+	
+	A submodule $Q\subseteq M$ is called a \textcolor{orange}{primary submodule} if $ax\in Q$ implies $x\in Q$ or $a^nM\subseteq Q$ for some $n>0$.
+\end{definition}
+
+\begin{definition}\label{primarymodule}
+	Let $M$ be an $A$-module, $N$ a submodule of $M$. The \textcolor{orange}{ideal radial} $\operatorname{rad}_M(N)$ of $N$ in $M$ is defined to be $\operatorname{rad}_M(N)=\sqrt{(N:M)}$. The \textcolor{orange}{prime radical} $\operatorname{Rad}_M(N)$ of $N$ in $M$ is defined to be the intersection of all prime submodules containing $N$.
+\end{definition}
+
+\begin{proposition*}
+	The ideal radical and the prime radical satisfy
+	\begin{equation*}
+		\left(\operatorname{Rad}_M(N):M\right)=\operatorname{rad}_M(N).
+	\end{equation*}
+	\begin{proof}
+		$\left(\operatorname{Rad}_M(N):M\right)=\bigcap_{P\supseteq N}(P:M)$, so we need to proof $\bigcap_{P\supseteq N}(P:M)=\sqrt{(N:M)}$.
+		
+		If $N\subseteq P$, $(N:M)\subseteq(P:M)$. Since $(P:M)$ prime, $\sqrt{(N:M)}\subseteq(P:M)$ and therefore $\sqrt{(N:M)}\subseteq\bigcap_{P\supseteq N}(P:M)$.
+		
+		Let $a\in(P:M)$ for all $P\supseteq N$. For any $\mathfrak{p}\supseteq(N:M)$, let
+		\begin{equation*}
+			K_\mathfrak{p}(N)=\left\{m\in M:sm\in\mathfrak{p}M+N\text{ for some }s\in A-\mathfrak{p}\right\},
+		\end{equation*}
+		we have $N\subseteq K_\mathfrak{p}(N)$. If $(K_\mathfrak{p}(N):M)=\mathfrak{p}$, then $a\in\mathfrak{p}$ and therefore $a\in\sqrt{(N:M)}$.
+		
+		Let $x\in(K_\mathfrak{p}(N):M)$, then $xsm\in\mathfrak{p}M+N$ for all $m\in M$ and some $s\in A-\mathfrak{p}$. If $x\notin\mathfrak{p}$, $xs\in A-\mathfrak{p}$, and therefore $K_\mathfrak{p}(N)=M$, contradiction. Hence $(K_\mathfrak{p}(N):M)\subseteq\mathfrak{p}$.
+		
+		For any $x\in\mathfrak{p}$, $xM\subseteq\mathfrak{p}M\subseteq\mathfrak{p}M+N$. Therefore, $x\in(K_\mathfrak{p}(N):M)$ and so $\mathfrak{p}\subseteq(K_\mathfrak{p}(N):M)$.
+	\end{proof}
+\end{proposition*}
+
