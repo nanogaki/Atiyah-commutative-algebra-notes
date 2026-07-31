@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.29)  26 JUL 2026 09:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.29)  31 JUL 2026 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -935,16 +935,25 @@ Overfull \hbox (19.05533pt too wide) in paragraph at lines 44--45
 T1/cmr/m/n/10.95 = [][] \OML/cmm/m/it/10.95 f[] []$\OT1/cmr/m/n/10.95 .
  []
 
-[29]
-Overfull \hbox (3.9314pt too wide) in paragraph at lines 127--128
+[29] [30]
+Overfull \hbox (3.9314pt too wide) in paragraph at lines 129--130
 []\OT1/cmr/m/n/10.95 Similar to the proof of [][]Ex-er-cise 5.22[][], we can fi
 nd $[] : \OML/cmm/m/it/10.95 B \OMS/cmsy/m/n/10.95 ! []$\OT1/cmr/m/n/10.95 . Le
 t $\OML/cmm/m/it/10.95 B \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 A []$\OT1/cmr
 /m/n/10.95 ,
  []
 
-[30]) (Exercise/Exercise6.tex [31]) (Exercise/Exercise7.tex [32])
-(Exercise/Exercise8.tex [33]) (Exercise/Exercise9.tex [34]
+
+Overfull \hbox (12.35835pt too wide) in paragraph at lines 189--190
+[]\OT1/cmr/bx/n/10.95 5.35. []\OT1/cmr/m/n/10.95 Let $\OML/cmm/m/it/10.95 A[]$ 
+\OT1/cmr/m/n/10.95 be an ar-bi-trary val-u-a-tion ring of $[](\OML/cmm/m/it/10.
+95 B\OT1/cmr/m/n/10.95 )$ con-tain-ing $\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95
+ (\OML/cmm/m/it/10.95 A\OT1/cmr/m/n/10.95 )$. By hy-poth-e-sis, $[] [] \OMS/cms
+y/m/n/10.95 !
+ []
+
+[31]) (Exercise/Exercise6.tex) (Exercise/Exercise7.tex [32] [33])
+(Exercise/Exercise8.tex [34]) (Exercise/Exercise9.tex
 Overfull \hbox (2.85371pt too wide) in paragraph at lines 33--34
 []\OT1/cmr/m/n/10.95 By [][]Ex-er-cise 3.19(v)[][], $[](\OML/cmm/m/it/10.95 M\O
 T1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 V\OT1/cmr/m/n/10.95 ([](\OML/cmm/m/it/
@@ -952,22 +961,22 @@ T1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 V\OT1/cmr/m/n/10.95 ([](\OML/cmm/m/it/
  9.3(ii)[][], $[](\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 ) =
  []
 
-) (Exercise/Exercise10.tex [35]
+[35]) (Exercise/Exercise10.tex
 Overfull \hbox (5.82018pt too wide) in paragraph at lines 46--50
 []\OT1/cmr/m/n/10.95 We con-struct two ho-mo-mor-phisms $[]$. When
  []
 
-) (Exercise/Exercise11.tex [36]) [37] (Note.aux)
+[36]) (Exercise/Exercise11.tex [37]) [38] (Note.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 29535 strings out of 467870
- 578458 string characters out of 5428425
- 1114172 words of memory out of 5000000
- 57399 multiletter control sequences out of 15000+600000
+ 29557 strings out of 467870
+ 578687 string characters out of 5428425
+ 1115687 words of memory out of 5000000
+ 57411 multiletter control sequences out of 15000+600000
  639875 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  124i,29n,121p,11233b,1144s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -990,9 +999,9 @@ s/type1/public/amsfonts/euler/eufm10.pfb><D:/Program Files/MiKTeX/fonts/type1/p
 ublic/amsfonts/euler/eufm7.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/symbols/msam10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on Note.pdf (37 pages, 545298 bytes).
+Output written on Note.pdf (38 pages, 560338 bytes).
 PDF statistics:
- 1248 PDF objects out of 1440 (max. 8388607)
- 535 named destinations out of 1000 (max. 500000)
+ 1293 PDF objects out of 1440 (max. 8388607)
+ 545 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

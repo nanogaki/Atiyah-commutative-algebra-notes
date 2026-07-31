@@ -1,7 +1,7 @@
 \section{Integral Dependence and Valuations}
 
 \begin{exercise}\label{ex5.1}
-	$f^*(V(I))=\left\{f^{-1}(\mathfrak{q}):\mathfrak{q}\supseteq I\right\}$. Use \Cref{5.10} to proof $f^*(V(I))\supseteq V\left(f^{-1}(I)\right)$.
+	$f^*(V(I))=\left\{f^{-1}(\mathfrak{q}):\mathfrak{q}\supseteq I\right\}$. Use \Cref{5.10} to prove $f^*(V(I))\supseteq V\left(f^{-1}(I)\right)$.
 \end{exercise}
 
 \begin{exercise}\label{ex5.2}
@@ -18,7 +18,7 @@
 
 \begin{exercise}\label{ex5.5}
 	\begin{enumerate}
-		\item[(ii)] Use \Cref{5.10} to proof that the contraction of maximal ideals in $B$ are maximal in $A$.
+		\item[(ii)] Use \Cref{5.10} to prove that the contraction of maximal ideals in $B$ are maximal in $A$.
 	\end{enumerate}
 \end{exercise}
 
@@ -31,7 +31,7 @@
 \end{exercise}
 
 \begin{exercise}\label{ex5.8}
-	Proof that there is a ring $D\supseteq B$ such that $f$ and $g$ factor into linear factors in $D$. Use Kronecker's construction.
+	Prove that there is a ring $D\supseteq B$ such that $f$ and $g$ factor into linear factors in $D$. Use Kronecker's construction.
 \end{exercise}
 
 \begin{exercise}\label{ex5.9}
@@ -62,7 +62,9 @@
 \end{exercise}
 
 \begin{exercise}\label{ex5.15}
+	If $L/K$ is separable, we can find a finite Galois extension $M/K$ such that $L\subseteq M$. Let $C$ be the integral closure of $A$ in $M$. By \Cref{ex5.14} and \Cref{ex5.13}, $P_C$ is finite. To prove $P_B=\left\{\mathfrak{p}\cap B:\mathfrak{p}\in P_C\right\}$, we need \Cref{5.10}, so $\mathfrak{p}_B\in P_B$ can be lifted to $\mathfrak{p}_C$. Verify $\mathfrak{p}_C\in P_C$.
 	
+	If $L/K$ purely inseparable, fix a $\mathfrak{p}\subseteq A$ and pick $\mathfrak{q}\subseteq B$ such that $\mathfrak{q}\cap A=\mathfrak{p}$. Let $x\in\mathfrak{q}$, so $x^{p^m}\in K$. $x$ is integral over $A$, so is $x^{p^m}$. But $A$ integrally closed, so $x^{p^m}\in A$. Therefore, $x^{p^m}\in\mathfrak{q}\cap A=\mathfrak{p}$. If there is another $\mathfrak{q}^\prime$ whose contraction is $\mathfrak{p}$, then $x^{p^m}\in\mathfrak{q}^\prime$ and so $x\in\mathfrak{q}^\prime$. Thus, such picked $\mathfrak{q}$ is unique.
 \end{exercise}
 
 \begin{exercise}\label{ex5.16}
@@ -82,7 +84,7 @@
 \end{exercise}
 
 \begin{exercise}\label{ex5.19}
-	By \Cref{ex5.18}, $k\left[t_1,\cdots,t_n\right]/\mathfrak{m}$ is a finite algebraic extension of $k$, so $k\left[t_1,\cdots,t_n\right]/\mathfrak{m}\cong k$. Let $t_i\mapsto a_i$, then $t_i-a_i\in\mathfrak{m}$. Proof that $\left(t_1-a_1,\cdots,t_n-a_n\right)$ is maximal.
+	By \Cref{ex5.18}, $k\left[t_1,\cdots,t_n\right]/\mathfrak{m}$ is a finite algebraic extension of $k$, so $k\left[t_1,\cdots,t_n\right]/\mathfrak{m}\cong k$. Let $t_i\mapsto a_i$, then $t_i-a_i\in\mathfrak{m}$. Prove that $\left(t_1-a_1,\cdots,t_n-a_n\right)$ is maximal.
 \end{exercise}
 
 \begin{exercise}\label{ex5.20}
@@ -139,7 +141,7 @@
 
 \begin{exercise}\label{ex5.27}
 	\begin{enumerate}
-		\item[$\Rightarrow$:] Use \Cref{5.21} to proof maximal elements are valuation rings.
+		\item[$\Rightarrow$:] Use \Cref{5.21} to prove maximal elements are valuation rings.
 		\item[$\Leftarrow$:] If $(A,\mathfrak{m})\subsetneq(A^\prime,\mathfrak{m}^\prime)$, pick $x\in A^\prime\backslash A$. Then $x^{-1}\in\mathfrak{m}$ because it is not a unit in $A$.
 	\end{enumerate}
 \end{exercise}
@@ -176,7 +178,7 @@
 \end{exercise}
 
 \begin{exercise}\label{ex5.33}
-	Let $v(a/b)=v_0(a)-v_0(b)$. Use $v(xy)=v(x)+v(y)$ to proof it is well-defined and unique.
+	Let $v(a/b)=v_0(a)-v_0(b)$. Use $v(xy)=v(x)+v(y)$ to prove it is well-defined and unique.
 \end{exercise}
 
 \begin{exercise}\label{ex5.34}
@@ -184,5 +186,7 @@
 \end{exercise}
 
 \begin{exercise}\label{ex5.35}
+	Let $A^\prime$ be an arbitrary valuation ring of $\operatorname{Frac}(B)$ containing $f(A)$. By hypothesis, $\operatorname{Spec}\left(B\otimes_AA^\prime\right)\rightarrow\operatorname{Spec}\left(A^\prime\right)$ is a closed map, and by \Cref{ex5.34}, $g:B\otimes_AA^\prime\rightarrow\operatorname{Frac}(B)$ defined by $b\otimes a^\prime\mapsto ba^\prime$ satisfies $g\left(B\otimes_AA^\prime\right)=A^\prime$. In other words, $ba^\prime\in A^\prime$ for all $b\in B$ and all $a^\prime\in A^\prime$. By taking $a^\prime=1$, we have $B\subseteq A^\prime$. By \Cref{5.22}, $B$ is in the integral closure of $f(A)$, so $B$ is integral over $f(A)$.
 	
+	The composition map $A\rightarrow B\rightarrow B/\mathfrak{p}_i$ is integral. By \Cref{ex5.6}, $A\rightarrow\prod_{i=1}^nB/\mathfrak{p}_i$ is integral, Using integral dependence equation can prove $A\rightarrow A/\mathfrak{R}$ is integral then $A\rightarrow B$ is integral.
 \end{exercise}

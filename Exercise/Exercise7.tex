@@ -1,7 +1,7 @@
 \section{Noetherian Rings}
 
 \begin{exercise}[Cohen's theorem]\label{ex7.1}
-	Let $\mathfrak{a}$ be a maximal element in $\Sigma$. If $xy\in\mathfrak{a}$ but $x,y\notin\mathfrak{a}$, then $\mathfrak{a}+(x)$ is finitely generated. Let $\left\{x,a_1,\cdots,a_n\right\}$ be its generators and let $\mathfrak{a}_0=\left(a_1,\cdots,a_n\right)$. Proof that $\mathfrak{a}_0\nsubseteq\mathfrak{a}$ is impossible. Therefore, if $u\in\mathfrak{a}\subseteq\mathfrak{a}+(x)=\mathfrak{a}_0+(x)$, $u=a_0+bx$ with $b\in\mathfrak{a}$, so $\mathfrak{a}\subseteq\mathfrak{a}_0+x\cdot(\mathfrak{a}:x)$; we also have $x\cdot(\mathfrak{a}:x)\subseteq\mathfrak{a}$. Note that $y\in(\mathfrak{a}:x)$.
+	Let $\mathfrak{a}$ be a maximal element in $\Sigma$. If $xy\in\mathfrak{a}$ but $x,y\notin\mathfrak{a}$, then $\mathfrak{a}+(x)$ is finitely generated. Let $\left\{x,a_1,\cdots,a_n\right\}$ be its generators and let $\mathfrak{a}_0=\left(a_1,\cdots,a_n\right)$. Prove that $\mathfrak{a}_0\nsubseteq\mathfrak{a}$ is impossible. Therefore, if $u\in\mathfrak{a}\subseteq\mathfrak{a}+(x)=\mathfrak{a}_0+(x)$, $u=a_0+bx$ with $b\in\mathfrak{a}$, so $\mathfrak{a}\subseteq\mathfrak{a}_0+x\cdot(\mathfrak{a}:x)$; we also have $x\cdot(\mathfrak{a}:x)\subseteq\mathfrak{a}$. Note that $y\in(\mathfrak{a}:x)$.
 \end{exercise}
 
 \begin{exercise}\label{ex7.2}
@@ -14,7 +14,7 @@
 \begin{exercise}\label{ex7.3}
 	\begin{enumerate}
 		\item[(i) $\Rightarrow$ (ii)] Use \Cref{4.8} and \Cref{4.4}.
-		\item[(ii) $\Rightarrow$ (iii)] Let $S=\left\{1,x,x^2,\cdots\right\}$. Proof that $\bigcup\left(\mathfrak{a}:x^n\right)=S(\mathfrak{a})$.
+		\item[(ii) $\Rightarrow$ (iii)] Let $S=\left\{1,x,x^2,\cdots\right\}$. Prove that $\bigcup\left(\mathfrak{a}:x^n\right)=S(\mathfrak{a})$.
 		\item[(iii) $\Rightarrow$ (i)] Similar to the proof of \Cref{7.12}.
 	\end{enumerate}
 \end{exercise}
@@ -86,21 +86,24 @@
 \end{exercise}
 
 \begin{exercise}\label{ex7.17}
-	
+	Only prove the generalization of \Cref{7.12}. Let $ax\in Q$ but $x\notin Q$, we have $\left(Q:a^n\right)=\left(Q:a^{n+1}\right)$ for some $n$. If $u\in a^nM\cap Ax$, $u=a^nm=bx$, so $a^{n+1}m=bax\in Q$, and so $m\in\left(Q:a^{n+1}\right)=\left(Q:a^n\right)$, and so $u=a^nm\in Q$. Since $Q$ irreducible, $a^nM=Q$.
 \end{exercise}
 
 \begin{exercise}\label{ex7.18}
-	
+	\begin{enumerate}
+		\item[(i) $\Leftrightarrow$ (ii)] The generalization of \Cref{7.17}.
+		\item[(ii) $\Leftrightarrow$ (iii)] $\operatorname{Ann}(x)=\ker(A\rightarrow Ax)$, and $A/\mathfrak{p}=A/\operatorname{Ann}(x)\cong Ax$.
+	\end{enumerate}
 \end{exercise}
 
 \begin{exercise}\label{ex7.19}
-	
+	Let $\mathfrak{a}_{kl}=\left(\bigcap_{i\neq k}^r\mathfrak{b}_i\right)\cap\mathfrak{c}_l$, then $\bigcap_{l=1}^s\mathfrak{a}_{kl}=\mathfrak{a}$ for all $k$. Since $\mathfrak{a}\subseteq\mathfrak{b}_k$, the projection $\pi:A\rightarrow A/\mathfrak{b}_k$ maps the equation to $\bigcap_{l=1}^s\pi\left(\mathfrak{a}_{kl}\right)=0$. Since $\mathfrak{b}_k$ irreducible, $\pi\left(\mathfrak{a}_{kl}\right)=0$ for some $l$ and therefore $\mathfrak{a}_{kl}\subseteq\mathfrak{b}_k$. The construction of $\mathfrak{a}_{kl}$ implies $\mathfrak{a}\subseteq\mathfrak{a}_{kl}\subseteq\mathfrak{b}_i$ for all $i\neq k$. Take the intersection of all $i$, we conclude that for any $k$, there is an $l$ such that $\mathfrak{a}_{kl}=\mathfrak{a}$. Therefore, $r=s$, and use \Cref{4.5}.
 \end{exercise}
 
 \begin{exercise}\label{ex7.20}
 	\begin{enumerate}[label=(\roman*),ref=\theexercise(\roman*)]\crefalias{enumi}{exercise}
 		\item $\Rightarrow$: We have a chain $\mathcal{F}_0\subseteq\mathcal{C}_1\subseteq\mathcal{F}_1\subseteq\mathcal{C}_2\subseteq\cdots\subseteq\mathcal{F}$, where $\mathcal{F}_0$ is the topology, $\mathcal{C}_i=\mathcal{F}_{i-1}\cup\left\{S^c:S\in\mathcal{F}_{i-1}\right\}$, and $\mathcal{F}_i$ is a collection of all finite intersections of sets in $\mathcal{C}_i$.
-		\item $\Rightarrow$: Use the open set definition.
+		\item\label{ex7.21.2} $\Rightarrow$: Use the open set definition.
 	\end{enumerate}
 \end{exercise}
 
@@ -118,11 +121,17 @@
 \end{exercise}
 
 \begin{exercise}\label{ex7.23}
-	Hint.
+	It is enough to prove $f^*(U\cap C)$ is constructible. Let $C=V(\mathfrak{a})$, by $\operatorname{Spec}(B/\mathfrak{a})\hookrightarrow\operatorname{Spec}(B)\xrightarrow{f^*}\operatorname{Spec}(A)$, we only need to show $f^*(U)$ is constructible. By \Cref{ex6.6} and \Cref{ex1.17.7}, $U=\bigcup_{i=1}^nX_{g_i}$. By $\operatorname{Spec}\left(B_{g_i}\right)\hookrightarrow\operatorname{Spec}(B)\xrightarrow{f^*}\operatorname{Spec}(A)$, it suffices to show $f^*(Y)$ is constructible and take $B=B_{g_i}$. By \Cref{ex6.7}, we can assume $B$ is an integral domain.
+	
+	Let $X_0$ irreducible and suppose $f^*(Y)\cap X_0$ is dense in $X_0$. By \Cref{ex1.20.4}, $X_0=V(\mathfrak{p})$, so $f^{*-1}\left(X_0\right)=V(f(\mathfrak{p})B)=\operatorname{Spec}\left(A/\mathfrak{p}\otimes_AB\right)$ by \hyperref[ex1.21]{\Cref*{ex1.21}(ii)} and \Cref{ex2.2}. For any $X_0$, we also have $f^*(Y)\cap X_0=f^*\left(f^{*-1}\left(X_0\right)\right)$. Using the universal property of quotient rings to restrict $f$ on $A/\mathfrak{p}$, denoted as $\tilde{f}$, so $\tilde{f}^*(Y)=f^*\left(\operatorname{Spec}\left(A/\mathfrak{p}\otimes_AB\right)\right)=f^*(Y)\cap X_0$ is dense in $X_0$. By \hyperref[ex1.21]{\Cref*{ex1.21}(v)},   $\ker\tilde{f}\subseteq\mathfrak{R}_{A/\mathfrak{p}}=0$, so $\tilde{f}$ is injective. Replacing $A$ with $A/\mathfrak{p}$, we may assume $A$ is an integral domain.
+	
+	Suppose $A\subseteq B$ are integral domains. By \Cref{ex5.21}, there exists $s\neq0$ such that each $g_\mathfrak{p}:A\rightarrow\operatorname{Frac}(A/\mathfrak{p})\rightarrow\overline{\operatorname{Frac}(A/\mathfrak{p})}$ can be extended to $\tilde{g_\mathfrak{p}}:B\rightarrow\overline{\operatorname{Frac}(A/\mathfrak{p})}$. If $s\notin\mathfrak{p}$, $\mathfrak{q}=\ker\left(\tilde{g_\mathfrak{p}}\right)$ satisfies $\mathfrak{q}\cap A=\mathfrak{p}$, so $X_s\subseteq\tilde{f}^*(Y)$. By \Cref{ex7.21}, $\tilde{f}^*(Y)$ is constructible.
 \end{exercise}
 
 \begin{exercise}\label{ex7.24}
-	Hint.
+	Let $U$ be an open set in $Y$. By \Cref{ex7.23}, $f^*(U)$ is a constructible subset of $X$. Since $f$ has the going-down property, using $\mathfrak{q}\in U$ $\Rightarrow$ $\operatorname{Spec}(B_\mathfrak{q})\subseteq U$, we have $\mathfrak{p}^\prime\in f^*(U)$ for each $\mathfrak{p}^\prime\subseteq\mathfrak{p}\in f^*(U)$.
+
+	Let $X_0$ be an irreducible closed subset of $X$ and suppose $f^*(U)\cap X_0\neq\varnothing$. By \Cref{ex1.20.4}, $X_0=V\left(\mathfrak{p}_0\right)$, so $\mathfrak{p}_0\in f^*(U)$, and therefore $f^*(U)\cap X_0$ is dense in $X_0$. By \Cref{ex7.21.2}, $f^*(U)\cap X_0$ contains a non-empty open subset, and by \Cref{ex7.22}, $f^*(U)$ is open.
 \end{exercise}
 
 \begin{exercise}\label{ex7.25}
@@ -130,9 +139,19 @@
 \end{exercise}
 
 \begin{exercise}\label{ex7.26}
-	
+	\begin{enumerate}[label=(\roman*),ref=\theexercise(\roman*)]\crefalias{enumi}{exercise}
+		\item\label{ex7.26.1} $\lambda(D)=0$. Use the universal property of quotient groups.
+		\item Use \Cref{ex7.18} and $0\rightarrow M_{i-1}\rightarrow M_i\rightarrow A/\mathfrak{p}_i\rightarrow0$.
+		\item $0\rightarrow A\xrightarrow{a\cdot}A\rightarrow A/(a)\rightarrow0$ means $\gamma(A/(a))=0$ for all $a\neq0$, so $K(A)$ is generated by a single element $\gamma(A)$. We also have $0\rightarrow A\rightarrow A^n\rightarrow A^{n-1}\rightarrow0$, so $K(A)$ infinite cyclic.
+		\item\label{ex7.26.4} Any finitely generated $B$-module is also a finitely generated $A$-module. The map is constructed by using the universal property in \hyperref[ex7.26.1]{(i)} on $F(B)\rightarrow F(A)\rightarrow K(A)$.
+	\end{enumerate}
 \end{exercise}
 
 \begin{exercise}\label{ex7.27}
-	
+	\begin{enumerate}[label=(\roman*),ref=\theexercise(\roman*)]\crefalias{enumi}{exercise}
+		\addtocounter{enumi}{2}
+		\item Use \Cref{ex7.15}, so that $F_1(A)$ is the set of all free modules.
+		\item Use \Cref{2.15} to prove $M_B$ is a flat $B$-module. The rest is similar to \Cref{ex7.26.4}.
+		\item Treat $x,y$ as modules. Use the formulas in \Cref{ex7.26} and \Cref{ex7.27}.
+	\end{enumerate}
 \end{exercise}
