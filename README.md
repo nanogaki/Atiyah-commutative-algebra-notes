@@ -36,7 +36,7 @@ The results in Proposition 4.4 and 4.8 are fundamental for understanding primary
 
 Proposition 4.9 is useful for computations.
 
-Exercise 4.13 (iv) has typo issue. It should be: $\mathfrak{p}^{(n)}=\mathfrak{p}^{n} \Leftrightarrow \mathfrak{p}^{n}$ is $\mathfrak{p}$-primary.
+Exercise 4.13 (iv) has typographical error. It should be: $\mathfrak{p}^{(n)}=\mathfrak{p}^{n} \Leftrightarrow \mathfrak{p}^{n}$ is $\mathfrak{p}$-primary.
 
 ### Chapter 5 - Integral Dependence and Valuations
 
