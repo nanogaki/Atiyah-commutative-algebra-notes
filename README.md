@@ -6,7 +6,7 @@ After spending many years in a different field, I finally found the time to stud
 
 *Introduction to Commutative Algebra* by Atiyah and Macdonald is the first book for which I completed all the exercises. I only recorded the key concepts rather than writing out every detail, because a complete proof would take too much time during review.
 
-The summaries below highlight the concepts that were new or particularly important to me. Some of them may be incorrect. If you notice any mistakes, I would appreciate corrections, suggestions, or alternative viewpoints.
+The summaries below highlight the concepts that were new, or particularly important but overshadowed by other topics. Since this project was built only by myself, some interpretations and proofs may be incorrect.
 
 ---
 
