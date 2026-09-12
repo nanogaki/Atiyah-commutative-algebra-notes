@@ -21,4 +21,5 @@
 \contentsline {section}{\numberline {9}Discrete Valuation Rings and Dedekind Domain}{35}{section.11.9}%
 \contentsline {section}{\numberline {10}Completion}{36}{section.11.10}%
 \contentsline {section}{\numberline {11}Dimension Theory}{37}{section.11.11}%
+\contentsline {chapter}{SUMMARY}{39}{section*.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
